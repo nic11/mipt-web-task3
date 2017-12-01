@@ -29,4 +29,4 @@ input.keyup(function(e) {
     }
 });
 addButton.click(kek);
-$('body').append(input).append(addButton);
+$('#root').append(input).append(addButton);
